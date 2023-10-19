@@ -1,0 +1,24 @@
+body {
+  background-color: beige;
+}
+
+ 
+
+hr {
+   border-top: 50px solid green;
+}
+  
+  
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.event {
+display:block;
+height:250;
+}
+ 
+ 
