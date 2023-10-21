@@ -32,8 +32,7 @@ body {
   min-width: 160px;
   padding: 10;
   z-index: 1;
-  
-}
+  }
 
 .dropdown-content a {
   color: black;
@@ -44,30 +43,13 @@ body {
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-<!--.dropdown:hover .dropdown-content {
-  display: block;
-}-->
-
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-
-.dropdown-login{
-        display: none;
-        position: absolute;
-        width: 382px;
-        overflow: hidden;
-        margin: auto;
-        margin: 20 0 0 450px;
-        padding: 80px;
-        background: #23463f;
-        border-radius: 15px ;
-
-
+.dropdown:hover .dropdown-content {
+  display: block;
+}
  
-
- 
-
 .aux{
   background-color: green;
   padding: 10px;
@@ -107,13 +89,7 @@ padding: 25px 5px 25px 5px;
  
  }
 }
-.login{
-        width: 500px;
-        margin: 20 10 10 20px;
-        padding: 80px;
-        background: white;
-        border-radius: 15px ;
-}
+ 
 
 ul {
   list-style: none;
