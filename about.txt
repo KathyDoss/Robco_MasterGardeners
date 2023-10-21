@@ -1,0 +1,14 @@
+<html>  
+<head>
+   <link rel="stylesheet" type="text/css" href="style/style.css">
+   
+  </head>
+ 
+ 
+ 
+
+<img src="logo.png" class="center">
+
+
+The Tennessee Extension Master Gardener Program is a volunteer educational program that provides Tennesseans with horticulture education!
+The Tennessee Extension Master Gardener Program trains and engages with volunteers to provide the public with research-based information on lawn and garden topics. TEMGs are volunteers who have a love of plants and horticulture coupled with Extension training to equip them to teach and assist Tennessee residents.
