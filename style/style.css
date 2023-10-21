@@ -60,9 +60,7 @@ body {
   
 }
 
-  
-  
-   
+    
 .center {
   display: block;
   margin-left: auto;
@@ -86,9 +84,17 @@ body {
 height:250;
 padding: 25px 5px 25px 5px;
 }
- 
- }
+
+.socialmedia {
+background-color: transparent;
+height:30;
+width: auto;
+float: right;
+padding: 0 5 0 5;
 }
+ 
+ 
+
  
 
 ul {
