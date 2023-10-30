@@ -92,25 +92,13 @@ a:hover {
   padding-bottom:10px;
 }
 
-.rightcolumn {
-  float: right;
-  width: 48%;
-  padding: 5 0 5 0;
+ 
+.events {
+display: inline-block;
+width:400;
+length:300;
+padding:10px;
  }
-
-.leftcolumn {
- /*  float: left;*/
-  max-width: 100%;
-  min-width: 48%;
-  height: auto;
-  padding: 5px;
-}
-.event {
-display: inline;
-max-width: 100%;
-min-width: 48%;
-padding: 5 0 5 0;
-}
 
 .socialmedia {
 display: block;
