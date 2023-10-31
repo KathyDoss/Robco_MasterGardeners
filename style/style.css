@@ -17,7 +17,7 @@ text-shadow: 1px 1px black;
 .dropbtn {
   background-color: transparent;
   color: white;
-  padding: 16px;
+  padding: 20px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -35,14 +35,13 @@ text-shadow: 1px 1px black;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
-  padding: 10;
+  min-width: 150px;
   z-index: 1;
   }
 
 .dropdown-content a {
   color: black;
-  padding: 12px 16px;
+  padding: 5px 5px;
   text-decoration: none;
   display: block;
 }
@@ -98,14 +97,15 @@ a:hover {
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  height: 400px;  <*make height greater to accomodate more than 2 ads*>
-  background-color: blue;
+  height: 400px;   
   flex-wrap: wrap;
  }
 
 .responsive {
   max-width:100%;
   min-width: 50%;
+  width: 300px;
+  height: 200px;
    
 }
 
@@ -115,7 +115,7 @@ background-color: transparent;
 height:30;
 margin-left: auto;
 margin-right: auto; 
-width: 10%;
+width: 120;
 padding: 5 0 5 0;
 }
 
