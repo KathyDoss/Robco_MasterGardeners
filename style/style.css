@@ -93,12 +93,21 @@ a:hover {
 }
 
  
-.events {
-display: inline-block;
-width:400;
-length:300;
-padding:10px;
+.twoColumns {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  height: 400px;  <*make height greater to accomodate more than 2 ads*>
+  background-color: blue;
+  flex-wrap: wrap;
  }
+
+.responsive {
+  max-width:100%;
+  min-width: 50%;
+   
+}
 
 .socialmedia {
 display: block;
