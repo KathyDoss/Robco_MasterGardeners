@@ -13,7 +13,8 @@ text-shadow: 1px 1px black;
  .ribbon{
   background-color: green;
 }
- 
+
+  
 .announcement {
 color: green;
 font-weight: bold;
@@ -99,22 +100,22 @@ a:hover {
 }
 
  
-.twoColumns {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  height: 400px;   
-  flex-wrap: wrap;
- }
-
-.responsive {
-  max-width:100%;
-  min-width: 50%;
-  width: 300px;
-  height: 200px;
-   
+ 
+.image-container {
+  display: flex; /* Arrange images side by side */
+  flex-wrap: wrap; /* Allow images to wrap on smaller screens */
 }
+
+.image-container img {
+  width: 48%; /* Each image takes up 50% of the container */
+  margin: 10px; /* Add spacing between images */
+  max-width: 100%; /* Prevent images from exceeding container width */
+  height: auto; /* Maintain aspect ratio */
+}
+ 
+
+
+    
 
 .socialmedia {
 display: block;
@@ -125,16 +126,6 @@ margin-right: auto;
 width: 120;
 padding: 5 0 5 0;
 }
-
-
-/*
-.gardenslides {
-width= 90%;
-length= auto;
-margin-left=auto;
-margin-right=auto;
-}
- */
 
 
  
