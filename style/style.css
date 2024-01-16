@@ -107,7 +107,7 @@ a:hover {
 }
 
 .image-container img {
-  width: 48%; /* Each image takes up 50% of the container */
+  min-width: 48%; /* Each image takes up 50% of the container */
   margin: 10px; /* Add spacing between images */
   max-width: 100%; /* Prevent images from exceeding container width */
   height: auto; /* Maintain aspect ratio */
