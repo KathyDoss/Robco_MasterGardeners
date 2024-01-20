@@ -20,7 +20,7 @@ text-shadow: 1px 1px black;
   max-width: 100%;
 }
 
- .ribbon{
+ .ribbon {
   background-color: green;
 }
 
@@ -113,11 +113,13 @@ a:hover {
  
  
 .image-container {
-  display: flex; /* Arrange images side by side */
+  display: flex;  /* Arrange images side by side */
   flex-wrap: wrap; /* Allow images to wrap on smaller screens */
 }
 
 .image-container img {
+  aspect-ratio: 1/1;
+  width: 400px;
   min-width: 47%; /* Each image takes up 50% of the container */
   margin: 10px; /* Add spacing between images */
   max-width: 100%; /* Prevent images from exceeding container width */
