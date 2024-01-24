@@ -6,13 +6,13 @@ body {
 
 h1 {
 text-align: center;
-color: green;
+color: #147b6a;
 text-shadow: 1px 1px black;
 }
 
 #logo {
- /width: 300px;
-  aspect-ratio:3/1;
+  width: 300px;
+  height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -28,12 +28,12 @@ text-shadow: 1px 1px black;
 }
 
  .ribbon {
-  background-color: green;
+  background-color: #147b6a;
 }
 
   
 .announcement {
-color: green;
+color: #147b6a;
 font-weight: bold;
 font-size: 20px;
 }
@@ -74,7 +74,7 @@ font-size: 20px;
 .dropdown-content a:hover {background-color: #9e9d9d}
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #178f7b;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -92,13 +92,12 @@ a.menu {
   cursor: pointer;
 }
 a:hover {
-  background-color: #3e8341;
+  background-color: #178f7b;
 }
 
 
- 
 .aux{
-  background-color: green;
+  background-color: #147b6a;
   text-align: center;
   padding: 10px;
   color: white;
