@@ -6,7 +6,7 @@ body {
 
 h1 {
 text-align: center;
-color: #147b6a;
+color:#068a29;
 text-shadow: 1px 1px black;
 }
 
@@ -16,7 +16,7 @@ text-shadow: 1px 1px black;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom:10px;
+  /*padding-bottom:10px;*/
   max-width: 100%;
 }
 
@@ -28,12 +28,12 @@ text-shadow: 1px 1px black;
 }
 
  .ribbon {
-  background-color: #147b6a;
+  background-color: #047823;
 }
 
   
 .announcement {
-color: #147b6a;
+color: #047823;
 font-weight: bold;
 font-size: 20px;
 }
@@ -74,7 +74,7 @@ font-size: 20px;
 .dropdown-content a:hover {background-color: #9e9d9d}
 
 .dropdown:hover .dropbtn {
-  background-color: #178f7b;
+  background-color: #068a29;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -92,12 +92,12 @@ a.menu {
   cursor: pointer;
 }
 a:hover {
-  background-color: #178f7b;
+  background-color: #068a29;
 }
 
 
 .aux{
-  background-color: #147b6a;
+  background-color:#047823;
   text-align: center;
   padding: 10px;
   color: white;
