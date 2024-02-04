@@ -98,8 +98,8 @@ a:hover {
   font-size: 20px;
   margin-right: 10%;
   margin-left: 10%;
-  
 }
+
 
     
 .center {
@@ -126,6 +126,13 @@ a:hover {
   max-width: 100%; /* Prevent images from exceeding container width */
   height: auto; /* Maintain aspect ratio */
 }
+.image-container p {
+	padding-left: 10px;
+	color: #047823;
+	font-weight: bold;
+	
+}
+
  
 .collage-container img {
   aspect-ratio: 1.77/1;
