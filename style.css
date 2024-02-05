@@ -113,12 +113,12 @@ a:hover {
 
  
  
-.image-container {
+.flex-container {
   display: flex;  /* Arrange images side by side */
   flex-wrap: wrap; /* Allow images to wrap on smaller screens */
 }
 
-.image-container img { 
+.flex-container img { 
   width: 400px;
   height: auto;
   min-width: 46%; /* Each image takes up 50% of the container */
@@ -126,10 +126,13 @@ a:hover {
   max-width: 100%; /* Prevent images from exceeding container width */
   height: auto; /* Maintain aspect ratio */
 }
-.image-container p {
+.flex-container p {
 	padding-left: 10px;
 	color: #047823;
 	font-weight: bold;
+	width: 350px;
+	min-width: 25%;
+	max-width: 100%;
 	
 }
 
