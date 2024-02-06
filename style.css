@@ -133,9 +133,13 @@ a:hover {
 	width: 350px;
 	min-width: 25%;
 	max-width: 100%;
-	
 }
 
+.flex-container span {
+  font-weight: bold;
+  width: 200px;
+  margin: 10px;
+}
  
 .collage-container img {
   aspect-ratio: 1.77/1;
