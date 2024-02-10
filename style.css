@@ -202,15 +202,8 @@ a:hover {
 
 /* picture collage */
 
- .collage-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .collage-image {
-            max-width: 100%;
-            height: auto;
+  #collage {
+     width: 100%;
         }
 
 
