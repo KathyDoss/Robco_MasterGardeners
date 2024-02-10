@@ -44,8 +44,6 @@ font-size: 20px;
   padding: 25px;
   font-size: 20px;
   font-weight: 900;
-/*   text-shadow: 1px 1px white;*/
-
   border: none;
   cursor: pointer;
 }
@@ -101,7 +99,6 @@ a:hover {
 
 
 .aux{
-  /*background-color:#047823;*/
   border: solid;
   border-width: 10px;
   border-color: #306519;
@@ -117,46 +114,26 @@ a:hover {
 }
 .classimg {
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
-	
-	
-
-
-    
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:10px 10px;
-  max-width: 100%;
-  text-align:center;
-}
-
+     
  
- 
-.flex-container {
+.flex-center {
   display: flex;  /* Arrange images side by side */
   flex-wrap: wrap; /* Allow images to wrap on smaller screens */
   justify-content: center;
-  align-items: start;
+  align-items: center;
 }
 
-.flex-container img { 
+.flex-center img { 
  height:auto;
- /*width: 400px;*/
- margin: 18px;
+ padding: 5px;
  max-width: 100%; /* Prevent images from exceeding container width */
 }
 
-.partner {
-	display:inline;
-	width: 100px;
-	height: auto;
-	margin: 5px;
-	max-width: 100%;
-}
-
-.flex-container p {
+/* used on home page*/
+.flex-center p {
 	padding-left: 10px;
     border: solid;
     border-width: 10px;
@@ -166,8 +143,35 @@ a:hover {
 	width: 400px;
 	max-width: 100%;
 }
+
+.flex-left {
+  display: flex;  /* Arrange images side by side */
+  flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+  justify-content: left;
+  align-items: start;
+}
+
+
+.flex-left img { 
+ height:auto;
+ padding:5px;
+ max-width: 100%; /* Prevent images from exceeding container width */
+}
+
+.flex-left p {
+	padding-left: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color: #306519;
+	color: #306519;
+	font-weight: bold;
+	width: 400px;
+	max-width: 100%;
+}
+
+
 /* newsletter list*/
-.flex-container span {
+.flex-left span {
   font-weight: bold;
   width: 200px;
   margin: 10px;
@@ -188,7 +192,7 @@ a:hover {
 }
 
 .fa-facebook {
-  background: #125688 	;
+  background: #125688;
   color: white;
 }
 .fa-instagram {
