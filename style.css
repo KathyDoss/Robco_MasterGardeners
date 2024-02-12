@@ -48,9 +48,10 @@ font-size: 20px;
   
 .dropbtn {
   background-color: transparent;
+  width: 175px;
   margin:0;
   color: white;
-  padding: 19px;
+  padding: 25px;
   font-size: 18px;
   font-weight: 900;
   border: none;
@@ -69,7 +70,7 @@ font-size: 20px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 175px;
+  min-width: 200px;
   z-index: 1;
   }
 
@@ -92,7 +93,7 @@ font-size: 20px;
 a.menu {
   background-color: transparent;
   color: white;
-  padding: 28px;
+  padding: 25px;
   text-align: left;
   text-decoration: none;
   text-shadow: .5px .5px white;
@@ -153,7 +154,7 @@ a:hover {
     border-color: #306519;
 	color: #306519;
 	font-weight: bold;
-	width: 400px;
+    width: 400px;
 	max-width: 100%;
 }
 
@@ -244,4 +245,6 @@ a:hover {
   border: none;
 }
 
-
+#flowerborder {
+	padding-bottom: 20px;
+}
