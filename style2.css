@@ -59,14 +59,13 @@ ul {
     display: none;
 }
 
-.dropdown-menu .submenu li:hover .submenu1 {
+.dropdown-menu .submenu li:hover .submenu1,.submenu:hover {
     display: inline-block;
 	width:190px;
 	background-color: white;
 	position: relative;
 	padding: 5px;
 }
-
 .dropdown-menu li:hover .submenu {
     display: block;
 	width:200px;

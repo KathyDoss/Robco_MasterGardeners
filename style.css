@@ -48,7 +48,7 @@ font-size: 20px;
   
 .dropbtn {
   background-color: transparent;
-  width: 175px;
+  width: 200px;
   margin:0;
   color: white;
   padding: 25px;
@@ -57,8 +57,17 @@ font-size: 20px;
   border: none;
   cursor: pointer;
 }
+ .demoappbtn {
+  background-color: transparent;
+  width: 200px;
+  margin-left: -20	px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
 
- 
 
 .dropdown {
   position: relative;
@@ -70,25 +79,54 @@ font-size: 20px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 200px;
+  min-width: 160px;
   z-index: 1;
-  }
+}
+  
+.second-content {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
 
-.dropdown-content a {
+
+.dropdown-content a{
   color: black;
   padding: 5px 5px;
   text-decoration: none;
   display: block;
+  border: none;
+  font-size: 18px;
 }
 
-.dropdown-content a:hover {background-color: #97e376;}
+.dropdown-content a:hover {
+	background-color: #97e376;
+	}
+	
+
 
 .dropdown:hover .dropbtn {
   background-color: #97e376;;
 }
-.dropdown:hover .dropdown-content {
-  display: block;
+
+.dropdown-content .demoappbtn:hover {
+  background-color: #97e376;
 }
+
+.dropdown:hover >.dropdown-content {
+  display: block;
+  z-index: 1;
+  }
+	
+.dropdown:hover >.second-content {
+  display: block;
+  z-index: 1;
+  }
+
 
 a.menu {
   background-color: transparent;
