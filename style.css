@@ -36,6 +36,7 @@ text-shadow: 1px 1px black;
 
  .ribbon {
  background-image: url("images/ivy.jpg");
+ background-size: 1920px 341px;
  width: 100%;
 }
 
