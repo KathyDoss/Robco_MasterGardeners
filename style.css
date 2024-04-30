@@ -131,7 +131,7 @@ font-size: 20px;
 }
 .dropdown-content .secondbtn:hover {
   background-color: #97e376;
-  display: block;
+  display: inline;
 }
 
 
