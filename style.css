@@ -50,7 +50,7 @@ font-size: 20px;
   
 .dropbtn {
   background-color: transparent;
-  width: img;
+  width: 160px;
   margin:0;
   color: white;
   padding: 25px;
@@ -70,6 +70,16 @@ font-size: 20px;
   cursor: pointer;
 }
 
+ .secondbtn {
+  background-color: transparent;
+  width: 200px;
+  margin-left: 0px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
 
 .dropdown {
   position: relative;
@@ -81,7 +91,7 @@ font-size: 20px;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 200px;
   z-index: 1;
 }
   
@@ -91,7 +101,7 @@ font-size: 20px;
   left: 100%;
   top: 0;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 200px;
   z-index: 1;
 }
 
@@ -117,7 +127,13 @@ font-size: 20px;
 
 .dropdown-content .demoappbtn:hover {
   background-color: #97e376;
+  display: block;
 }
+.dropdown-content .secondbtn:hover {
+  background-color: #97e376;
+  display: block;
+}
+
 
 .dropdown:hover >.dropdown-content {
   display: block;
