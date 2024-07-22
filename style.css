@@ -210,7 +210,7 @@ a:hover {
     border-color: #36940D;
 	color: #36940D;
 	font-weight: bold;
-    width: 400px;
+ /*   width: 400px;*/
 	max-width: 100%;
 }
 
@@ -239,7 +239,7 @@ a:hover {
     border-color: #36940D;
 	color: #36940D;
 	font-weight: bold;
-	width: 400px;
+	width: 800px;
 	max-width: 100%;
 }
 
