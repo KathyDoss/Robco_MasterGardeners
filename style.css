@@ -18,7 +18,23 @@ color:#36940D;
 text-shadow: 1px 1px black;
 }
 
-
+.blinking-text {
+    animation: blink 1s infinite;
+	width: 100;
+	border: none;
+}
+ @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+	}
+	
 #logo {
   width: 400px;
   height: 163;
@@ -211,7 +227,6 @@ a:hover {
     border-color: #36940D;
 	color: #36940D;
 	font-weight: bold;
- /*   width: 400px;*/
 	max-width: 100%;
 }
 
