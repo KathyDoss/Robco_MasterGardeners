@@ -87,6 +87,11 @@ font-size: 20px;
   cursor: pointer;
 }
 
+ .docbtn:hover {
+        background-color: #97e376;/* Background color on hover */
+        color: black; /* Text color on hover */
+    }
+
 
  .secondbtn {
   background-color: transparent;
